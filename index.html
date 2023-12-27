@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Logo</h1>
+            <span>
+                <a href="#" class="active">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <button class="btnLogin-popup">Login</button>
+            </span>
+        </nav>
+    </header>
+    
+    <section id="Home">
+        <h1>Ali Asker Gökçek</h1>
+        <!-- Clouds -->
+        <img src="./views/leftCloud.png" id ="leftCloud" alt="">
+        <img src="./views/mainCloud.png" id ="mainCloud" alt="">
+        <img src="./views/rightCloud.png" id ="rightCloud" alt="">
+        <!-- Background -->
+        <img src="./views/Layer 1.png" id="Mountain1" alt="">
+        <img src="./views/Layer 2.png" id="Mountain2" alt="">
+    </section>
+
+    <section id="About">
+        <h1>About</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde quisquam illum eveniet cum ex? Libero ad deleniti officia commodi assumenda aut, officiis neque voluptates qui ut dignissimos mollitia repellendus? Et!
+        Quaerat aperiam sequi quae officiis esse facilis error ut perspiciatis, dolores aut nesciunt, maiores numquam exercitationem iure eius magnam! In, obcaecati possimus quae sint quia sed amet temporibus animi inventore!
+        Quisquam sed praesentium dolorem modi repellat eligendi esse in architecto, totam omnis aperiam distinctio atque accusamus minima optio dolores provident laborum unde aliquid consequuntur similique recusandae sit! Animi, beatae soluta.
+        Voluptate in totam neque temporibus, doloremque quod dolorum corrupti? Ipsum nesciunt deserunt, delectus quaerat ex recusandae tempora omnis sapiente, voluptatibus praesentium natus officia unde iste deleniti voluptate libero totam placeat?
+        Blanditiis alias sunt possimus, ex, recusandae inventore illo saepe nulla a animi natus error, est maxime praesentium? Harum, porro ratione. Quos sapiente, adipisci necessitatibus quidem obcaecati excepturi sed earum minus.
+        Natus cumque necessitatibus a aliquam, dolorem, fugit molestiae magni ipsa voluptatibus ipsam aperiam voluptatem cum repellendus incidunt at unde blanditiis architecto! Eveniet id accusamus dignissimos iure sequi expedita amet architecto.
+        Nobis, omnis deserunt in debitis, velit, odit dolor autem odio itaque soluta minima ad similique officiis fugiat distinctio modi libero maxime. Voluptatum inventore numquam quibusdam similique sint alias aut quaerat!
+        Sed incidunt eaque ducimus aliquid quibusdam! Dicta necessitatibus commodi porro error, quae quis accusantium praesentium nobis est incidunt nam sint doloribus aspernatur. Voluptatum quod unde obcaecati quaerat quia veniam repellendus.
+        Accusantium obcaecati perspiciatis neque! Voluptatibus voluptates quaerat dolores corrupti perferendis, deserunt ratione totam accusantium debitis iste rerum modi eum iusto neque vel iure veritatis molestiae laboriosam repellat labore temporibus similique.
+        Necessitatibus dicta accusamus fuga distinctio at beatae aut placeat. Harum earum cum blanditiis odio dolor obcaecati adipisci, ullam placeat praesentium explicabo, laudantium rerum possimus consequatur ratione porro similique, vel velit.
+        </p>
+
+    </section>
+
+
+    <section id="login">
+    <!---->
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+        
+        
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">
+                    Remember me</label>
+                    <a href="#">Forgot Password</a>
+                </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="login-register">
+                        <p>Don't Have Account? <a href="#" class="register-link">Register</a>
+                        </p>
+                    
+                </div>
+            </form>
+        </div>
+
+
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">
+                    I agree to the term & conditions</label>
+                    
+                </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="login-register">
+                        <p>Already have an account? <a href="#" class="login-link">Login</a>
+                        </p>
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+
+</section>
+    
+    
+
+
+    <script src="server.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
